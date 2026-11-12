@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f2ff" />
+    <meta
+      name="description"
+      content="Portfolio of Obasi Blessing Nmesoma, System Analyst and Digital Analytics enthusiast."
+    />
+    <title>Contact | Obasi Blessing Nmesoma</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&family=Comfortaa:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-gingham" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Blessing home"
+        ><span class="brand-mark">B</span
+        ><span>blessing<span class="brand-dot">.</span></span></a
+      >
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <nav class="nav-links">
+        <a href="index.html" data-page="index">Home</a
+        ><a href="about.html" data-page="about">About</a>
+        <a href="projects.html" data-page="projects">Projects</a
+        ><a href="academic-planner.html" data-page="academic-planner"
+          >Planner</a
+        >
+        <a href="contact.html" data-page="contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="contact.html">Let’s connect <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="contact-layout">
+        <div class="contact-copy">
+          <span class="section-kicker">SAY HELLO</span>
+          <h1>Let's start<br /><em>a conversation.</em></h1>
+          <p>
+            Have a question, an idea or an opportunity to share? I’d be happy to
+            hear from you.
+          </p>
+          <div class="contact-method">
+            <span class="method-icon">☎</span>
+            <div>
+              <small>PHONE</small><a href="tel:07040719591">0704 071 9591</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <span class="method-icon">◎</span>
+            <div>
+              <small>EMAIL</small>
+              <a href="mailto:O.nmesoma0549@miva.edu.ng" class="email-link">
+                <span>O.nmesoma0549@miva.edu.ng</span>
+              </a>
+            </div>
+          </div>
+          <div class="contact-pattern"></div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <h2>Send a message</h2>
+          <label
+            >Your name<input
+              name="name"
+              required
+              placeholder="How should I call you?"
+          /></label>
+          <label
+            >Your email<input
+              name="email"
+              type="email"
+              required
+              placeholder="you@example.com"
+          /></label>
+          <label
+            >Message<textarea
+              name="message"
+              rows="5"
+              required
+              placeholder="Write your message..."
+            ></textarea>
+          </label>
+          <button class="button button-primary" type="submit">
+            Send message <span>↗</span>
+          </button>
+          <p class="form-feedback" id="formFeedback" role="status">
+            This demo form does not send or store messages.
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="brand" href="index.html"
+        ><span class="brand-mark">B</span
+        ><span>blessing<span class="brand-dot">.</span></span></a
+      >
+      <p>Thoughtful work. Curious mind. Always learning.</p>
+      <span>© <span id="year"></span> Obasi Blessing Nmesoma</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
